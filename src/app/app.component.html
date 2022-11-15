@@ -1,0 +1,26 @@
+<header>
+
+    <div>
+      <a href="https://onecare.alticelabs.com/">
+        <span>Customer Support</span>
+        <mat-icon>open_in_new</mat-icon>
+      </a>
+    </div>
+    <div>
+      <a href="https://wikis.alticelabs.com/login.action?os_destination=%2Findex.action&permissionViolation=true">
+        <span>Client Portal</span>
+        <mat-icon>open_in_new</mat-icon>
+      </a>
+    </div>
+</header>
+<div class="navbar">
+  <img src="https://www.alticelabs.com/wp-content/uploads/2019/05/logo_alticelabs.png">
+</div>
+<div class="modal">
+
+  <h1>Enter the desired index of the alticci sequence</h1>
+  <input #index type="text" matInput placeholder="index">
+  <button (click)="enter(index.value)">Enter</button>
+  <span>Result:{{result}}</span>
+</div>
+
